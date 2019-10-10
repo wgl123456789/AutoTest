@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="parameter">
+    <test name ="param">
+        <classes>
+            <parameter name="name" value="wang"></parameter>
+            <parameter name="age" value="10"></parameter>
+            <class name="cn.consur.testng.params.ParamTest"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suitename">
+    <test name="runall">
+        <classes>
+            <class name="cn.consur.testng.groups.GroupClass1"></class>
+            <class name="cn.consur.testng.groups.GroupClass2"></class>
+            <class name="cn.consur.testng.groups.GroupClass3"></class>
+        </classes>
+    </test>
+
+    <test name="onlyrunstu">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="cn.consur.testng.groups.GroupClass1"></class>
+            <class name="cn.consur.testng.groups.GroupClass2"></class>
+            <class name="cn.consur.testng.groups.GroupClass3"></class>
+        </classes>
+    </test>
+
+</suite>

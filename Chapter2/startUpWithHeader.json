@@ -1,0 +1,20 @@
+[
+  {
+    "description": "这是一个带cookies的请求",
+    "request": {
+      "uri": "/postWithHeader",
+      "method": "post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+         "name":"test",
+         "sex":"man"
+      }
+    },
+    "response": {
+      "text":"这个是带cookie的get请求"
+    }
+  }
+
+]

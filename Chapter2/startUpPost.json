@@ -1,0 +1,26 @@
+[
+  {
+    "description": "模拟一个没有参数的post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个没有参数的post请求"
+    }
+  },
+  {
+    "description": "paemm-post",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "testtesttest"
+    }
+  }
+]
