@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan("com.course.server")
+@ComponentScan("com.course")
 public class Application {
 
 
